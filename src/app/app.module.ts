@@ -15,13 +15,20 @@ import {MatInputModule} from '@angular/material/input';
 /* final dos importados do Angular Material*/
 
 import { AppRoutingModule } from './app-routing.module';
+import { RestritoRoutingModule } from './restrito/restrito-routing.module';
 import { AppComponent } from './app.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { InicioComponent } from './inicio/inicio.component';
 import { LoginComponent } from './login/login.component';
 import { MenuComponent } from './menu/menu.component';
 import { RodapeComponent } from './rodape/rodape.component';
-
+import { RestritoComponent } from './restrito/restrito.component';
+import { AtualizaProdutoComponent } from './restrito/atualiza-produto/atualiza-produto.component';
+import { ListaProdutoComponent } from './restrito/lista-produto/lista-produto.component';
+import { CadastroProdutoComponent } from './restrito/cadastro-produto/cadastro-produto.component';
+import { MenuRestritoComponent } from './restrito/menu-restrito/menu-restrito.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -30,6 +37,11 @@ import { RodapeComponent } from './rodape/rodape.component';
     LoginComponent,
     MenuComponent,
     RodapeComponent,
+    RestritoComponent,
+    AtualizaProdutoComponent,
+    ListaProdutoComponent,
+    CadastroProdutoComponent,
+    MenuRestritoComponent,
   ],
   imports: [
     BrowserModule,
@@ -41,7 +53,11 @@ import { RodapeComponent } from './rodape/rodape.component';
     MatGridListModule,
     MatIconModule,
     MatMenuModule,
-    MatInputModule
+    MatInputModule,
+    RestritoRoutingModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [
     provideAnimationsAsync()

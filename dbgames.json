@@ -1,0 +1,32 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "produto": "jogo 1",
+      "descricao": "O jogo para todas as idaddes",
+      "foto": "jogo1.PNG",
+      "preco": 200
+    },
+    {
+      "id": "2",
+      "produto": "jogo 2",
+      "descricao": "O jogo mais procurado",
+      "foto": "jogo2.PNG",
+      "preco": 300
+    },
+    {
+      "id": 0,
+      "produto": "Jogo famoso",
+      "descricao": "Produto de qualidade",
+      "foto": "jogo2.PNG",
+      "preco": 500
+    },
+    {
+      "id": 0,
+      "produto": "Jogo de corrida",
+      "descricao": "Muito veloz",
+      "foto": "jogo1.PNG",
+      "preco": 600
+    }
+  ]
+}
