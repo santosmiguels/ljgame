@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Para instalar as dependências necessárias foi utilizado o comando: npm i --legacy-peer-deps
+Nos ambientes:
+Angular CLI: 17.3.3
+Node: 20.11.1
+Package Manager: npm 10.2.4
+OS: win32 x64
